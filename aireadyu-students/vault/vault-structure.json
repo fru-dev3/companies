@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "structure": {
+    "subfolders": [
+      {
+        "folder": "00_current",
+        "description": "All active, current documents"
+      },
+      {
+        "folder": "01_prior",
+        "description": "Historical documents, subdivided by year (e.g. 01_prior/2024/)"
+      }
+    ]
+  },
+  "domains": [
+    { "id": "academics", "folder": "academics", "agent": "academics-agent", "description": "Transcripts, syllabi, assignment records, grade reports, study plans, course notes" },
+    { "id": "research", "folder": "research", "agent": "research-agent", "description": "Research papers, citations, literature reviews, thesis drafts, advisor feedback" },
+    { "id": "career", "folder": "career", "agent": "career-agent", "description": "Resume, cover letters, application tracker, networking contacts, interview notes" },
+    { "id": "finance", "folder": "finance", "agent": "finance-agent", "description": "Financial aid letters, loan documents, budget tracker, scholarship records, tuition invoices" },
+    { "id": "health", "folder": "health", "agent": "health-agent", "description": "Health records, insurance cards, appointment history, wellness logs, campus resources" },
+    { "id": "social", "folder": "social", "agent": "social-agent", "description": "Club memberships, event calendar, volunteer records, leadership roles, activity log" },
+    { "id": "skills", "folder": "skills", "agent": "skills-agent", "description": "Certifications, course completions, learning plans, skill assessments, portfolio pieces" },
+    { "id": "housing", "folder": "housing", "agent": "housing-agent", "description": "Lease agreements, utility records, housing applications, roommate agreements, move-in docs" },
+    { "id": "admin", "folder": "admin", "agent": "admin-agent", "description": "Academic calendar, registration records, application deadlines, scheduling docs" }
+  ]
+}

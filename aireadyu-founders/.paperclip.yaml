@@ -1,0 +1,6 @@
+schema: paperclip/v1
+
+company:
+  brandColor: "#3B8A6A"
+  description: "11 AI agents that manage your startup across 10 domains — product, fundraising, hiring, legal, finance, marketing, customers, operations, tech, and admin. Orchestrated by a Chief of Staff with daily briefs, weekly dashboards, and goal-driven task management. Everything runs locally. Private. On your machine."
+  requireBoardApprovalForNewAgents: true

@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "structure": {
+    "subfolders": [
+      {
+        "folder": "00_current",
+        "description": "All active, current documents"
+      },
+      {
+        "folder": "01_prior",
+        "description": "Historical documents, subdivided by year (e.g. 01_prior/2024/)"
+      }
+    ]
+  },
+  "domains": [
+    { "id": "properties", "folder": "properties", "agent": "properties-agent", "description": "Property profiles, condition reports, improvement logs, valuation records, portfolio summaries" },
+    { "id": "tenants", "folder": "tenants", "agent": "tenants-agent", "description": "Tenant files, lease agreements, move-in/out reports, payment history, communication logs" },
+    { "id": "maintenance", "folder": "maintenance", "agent": "maintenance-agent", "description": "Work orders, repair records, preventive maintenance schedules, contractor reports" },
+    { "id": "leasing", "folder": "leasing", "agent": "leasing-agent", "description": "Vacancy listings, applications, screening reports, move-in checklists, market comps" },
+    { "id": "finance", "folder": "finance", "agent": "finance-agent", "description": "Rent rolls, P&L by property, expense records, owner statements, tax filings" },
+    { "id": "legal", "folder": "legal", "agent": "legal-agent", "description": "Lease templates, eviction records, legal correspondence, fair housing docs, compliance records" },
+    { "id": "vendors", "folder": "vendors", "agent": "vendors-agent", "description": "Contractor list, service contracts, bid records, performance reviews, payment records" },
+    { "id": "insurance", "folder": "insurance", "agent": "insurance-agent", "description": "Policy documents, claims records, coverage summaries, renewal schedules" },
+    { "id": "compliance", "folder": "compliance", "agent": "compliance-agent", "description": "Inspection reports, permits, safety certificates, code violation records, compliance checklists" },
+    { "id": "admin", "folder": "admin", "agent": "admin-agent", "description": "Owner communications, scheduling docs, meeting notes, administrative records" }
+  ]
+}

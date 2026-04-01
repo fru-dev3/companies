@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "structure": {
+    "subfolders": [
+      {
+        "folder": "00_current",
+        "description": "All active, current documents"
+      },
+      {
+        "folder": "01_prior",
+        "description": "Historical documents, subdivided by year (e.g. 01_prior/2024/)"
+      }
+    ]
+  },
+  "domains": [
+    { "id": "product", "folder": "product/", "agent": "product-agent", "description": "Roadmaps, feature specs, user research, PRDs, competitive analysis, release notes" },
+    { "id": "fundraising", "folder": "fundraising/", "agent": "fundraising-agent", "description": "Pitch decks, term sheets, cap table, investor pipeline, data room, due diligence docs" },
+    { "id": "hiring", "folder": "hiring/", "agent": "hiring-agent", "description": "Job descriptions, candidate pipeline, offer letters, org chart, onboarding checklists" },
+    { "id": "legal", "folder": "legal/", "agent": "legal-agent", "description": "Incorporation docs, contracts, IP filings, equity agreements, compliance records" },
+    { "id": "finance", "folder": "finance/", "agent": "finance-agent", "description": "Financial model, P&L, burn rate reports, bank statements, investor financials" },
+    { "id": "marketing", "folder": "marketing/", "agent": "marketing-agent", "description": "Positioning docs, go-to-market plans, press coverage, content calendar, growth reports" },
+    { "id": "customers", "folder": "customers/", "agent": "customers-agent", "description": "Customer list, feedback logs, NPS data, case studies, support escalations" },
+    { "id": "operations", "folder": "operations/", "agent": "operations-agent", "description": "SOPs, vendor contracts, tool subscriptions, process documentation" },
+    { "id": "tech", "folder": "tech/", "agent": "tech-agent", "description": "Architecture docs, infrastructure inventory, security policies, incident reports" },
+    { "id": "admin", "folder": "admin/", "agent": "admin-agent", "description": "Board meeting minutes, investor updates, travel records, scheduling docs" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "structure": {
+    "subfolders": [
+      {
+        "folder": "00_current",
+        "description": "All active, current documents"
+      },
+      {
+        "folder": "01_prior",
+        "description": "Historical documents, subdivided by year (e.g. 01_prior/2024/)"
+      }
+    ]
+  },
+  "domains": [
+    { "id": "inventory", "folder": "inventory", "agent": "inventory-agent", "description": "Stock records, SKU catalog, reorder logs, warehouse docs, inventory audits" },
+    { "id": "listings", "folder": "listings", "agent": "listings-agent", "description": "Product listings, copy drafts, image assets, keyword research, listing audits" },
+    { "id": "customers", "folder": "customers", "agent": "customers-agent", "description": "Customer records, support tickets, review responses, returns log, loyalty data" },
+    { "id": "orders", "folder": "orders", "agent": "orders-agent", "description": "Order reports, fulfillment logs, SLA tracking, exception reports, 3PL docs" },
+    { "id": "marketing", "folder": "marketing", "agent": "marketing-agent", "description": "Ad campaigns, email sequences, social calendar, influencer contracts, promo plans" },
+    { "id": "finance", "folder": "finance", "agent": "finance-agent", "description": "P&L statements, tax filings, chargeback records, revenue reports, vendor invoices" },
+    { "id": "vendors", "folder": "vendors", "agent": "vendors-agent", "description": "Supplier contracts, purchase orders, RFQ docs, vendor evaluations, payment schedules" },
+    { "id": "shipping", "folder": "shipping", "agent": "shipping-agent", "description": "Carrier contracts, shipping rate cards, delivery reports, claims records" },
+    { "id": "analytics", "folder": "analytics", "agent": "analytics-agent", "description": "Performance dashboards, conversion reports, LTV analysis, channel attribution data" },
+    { "id": "tech", "folder": "tech", "agent": "tech-agent", "description": "Platform documentation, app inventory, automation specs, integration records" },
+    { "id": "admin", "folder": "admin", "agent": "admin-agent", "description": "Business licenses, compliance filings, calendar records, administrative documents" }
+  ]
+}

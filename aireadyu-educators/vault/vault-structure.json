@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "structure": {
+    "subfolders": [
+      {
+        "folder": "00_current",
+        "description": "All active, current documents"
+      },
+      {
+        "folder": "01_prior",
+        "description": "Historical documents, subdivided by year (e.g. 01_prior/2024/)"
+      }
+    ]
+  },
+  "domains": [
+    { "id": "curriculum", "folder": "curriculum", "agent": "curriculum-agent", "description": "Lesson plans, unit plans, course materials, standards alignment docs, resource library" },
+    { "id": "students", "folder": "students", "agent": "students-agent", "description": "Student records, progress notes, family communications, IEP/504 docs, intervention logs" },
+    { "id": "assessment", "folder": "assessment", "agent": "assessment-agent", "description": "Rubrics, gradebooks, assessment records, progress reports, testing data" },
+    { "id": "professional-dev", "folder": "professional-dev", "agent": "professional-dev-agent", "description": "PD plans, certifications, conference records, licensure docs, growth portfolios" },
+    { "id": "research", "folder": "research", "agent": "research-agent", "description": "Research projects, grant applications, publications, data collection, literature reviews" },
+    { "id": "finance", "folder": "finance", "agent": "finance-agent", "description": "Classroom budget, grant records, reimbursements, personal finance docs" },
+    { "id": "tech", "folder": "tech", "agent": "tech-agent", "description": "Tool inventory, LMS documentation, software accounts, tech integration guides" },
+    { "id": "wellbeing", "folder": "wellbeing", "agent": "wellbeing-agent", "description": "Workload logs, wellness check-ins, vacation records, personal routines" },
+    { "id": "community", "folder": "community", "agent": "community-agent", "description": "Parent communications, event records, volunteer logs, partnership docs, newsletters" },
+    { "id": "admin", "folder": "admin", "agent": "admin-agent", "description": "Academic calendar, compliance docs, attendance records, scheduling records" }
+  ]
+}

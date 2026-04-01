@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "structure": {
+    "subfolders": [
+      {
+        "folder": "00_current",
+        "description": "All active, current documents"
+      },
+      {
+        "folder": "01_prior",
+        "description": "Historical documents, subdivided by year (e.g. 01_prior/2024/)"
+      }
+    ]
+  },
+  "domains": [
+    { "id": "clients", "folder": "clients", "agent": "clients-agent", "description": "Client records, communication logs, contracts, satisfaction surveys, renewal notes" },
+    { "id": "projects", "folder": "projects", "agent": "projects-agent", "description": "Project briefs, timelines, deliverables, status reports, change orders, post-mortems" },
+    { "id": "finance", "folder": "finance", "agent": "finance-agent", "description": "Invoices, payment records, expense receipts, tax filings, profit reports, rate cards" },
+    { "id": "marketing", "folder": "marketing", "agent": "marketing-agent", "description": "Portfolio pieces, case studies, proposal templates, profile copy, testimonials" },
+    { "id": "skills", "folder": "skills", "agent": "skills-agent", "description": "Certifications, learning plans, course notes, skill assessments, market rate research" },
+    { "id": "legal", "folder": "legal", "agent": "legal-agent", "description": "Contract templates, signed agreements, NDAs, IP assignments, scope-of-work docs" },
+    { "id": "wellbeing", "folder": "wellbeing", "agent": "wellbeing-agent", "description": "Time logs, workload reports, vacation records, routine tracking, burnout check-ins" },
+    { "id": "pipeline", "folder": "pipeline", "agent": "pipeline-agent", "description": "Prospect list, proposal drafts, follow-up logs, win/loss analysis, referral records" },
+    { "id": "admin", "folder": "admin", "agent": "admin-agent", "description": "Tool subscriptions, scheduling docs, email templates, administrative records" }
+  ]
+}

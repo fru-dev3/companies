@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "structure": {
+    "subfolders": [
+      {
+        "folder": "00_current",
+        "description": "All active, current documents"
+      },
+      {
+        "folder": "01_prior",
+        "description": "Historical documents, subdivided by year (e.g. 01_prior/2024/)"
+      }
+    ]
+  },
+  "domains": [
+    { "id": "content", "folder": "content/", "agent": "content-agent", "description": "Scripts, articles, newsletters, content calendar, publishing schedules, video briefs, drafts" },
+    { "id": "brand", "folder": "brand/", "agent": "brand-agent", "description": "Style guides, brand assets, voice documentation, competitor analysis, brand guidelines" },
+    { "id": "monetization", "folder": "monetization/", "agent": "monetization-agent", "description": "Revenue reports, membership tiers, merch catalog, course materials, pricing strategy" },
+    { "id": "analytics", "folder": "analytics/", "agent": "analytics-agent", "description": "Performance reports, channel metrics, growth tracking, platform analytics exports" },
+    { "id": "audience", "folder": "audience/", "agent": "audience-agent", "description": "Community guidelines, newsletter subscriber data, engagement reports, feedback logs" },
+    { "id": "production", "folder": "production/", "agent": "production-agent", "description": "Production schedules, asset libraries, editing templates, contractor briefs, equipment inventory" },
+    { "id": "legal", "folder": "legal/", "agent": "legal-agent", "description": "Brand deal contracts, copyright registrations, DMCA notices, licensing agreements, IP filings" },
+    { "id": "finance", "folder": "finance/", "agent": "finance-agent", "description": "Revenue statements, expense receipts, tax filings, sponsor invoices, financial reports" },
+    { "id": "partnerships", "folder": "partnerships/", "agent": "partnerships-agent", "description": "Brand deal pipeline, sponsor contacts, rate cards, partnership agreements, affiliate programs" },
+    { "id": "tools", "folder": "tools/", "agent": "tools-agent", "description": "Software subscriptions, equipment inventory, workflow documentation, API credentials" },
+    { "id": "admin", "folder": "admin/", "agent": "admin-agent", "description": "Calendar records, travel docs, meeting notes, email templates, administrative files" }
+  ]
+}
