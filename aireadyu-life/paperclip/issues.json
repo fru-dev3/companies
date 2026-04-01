@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "description": "Bootstrap issues for AI Ready U: Life. The Chief of Staff creates these on first run to initialize all domain agents.",
+  "bootstrap_issues": [
+    {
+      "title": "Initialize all domain agents",
+      "description": "Create onboarding tasks for every domain agent to review their vault, update their state file, and identify top priorities.",
+      "assignee": "chief-of-staff",
+      "priority": "critical",
+      "status": "todo",
+      "subtasks": [
+        { "title": "Review vault and update state — tax", "assignee": "tax", "priority": "critical" },
+        { "title": "Review vault and update state — health", "assignee": "health", "priority": "high" },
+        { "title": "Review vault and update state — wealth", "assignee": "wealth", "priority": "critical" },
+        { "title": "Review vault and update state — career", "assignee": "career", "priority": "high" },
+        { "title": "Review vault and update state — legal", "assignee": "legal", "priority": "high" },
+        { "title": "Review vault and update state — insurance", "assignee": "insurance", "priority": "high" },
+        { "title": "Review vault and update state — business", "assignee": "business", "priority": "high" },
+        { "title": "Review vault and update state — estate", "assignee": "estate", "priority": "medium" },
+        { "title": "Review vault and update state — home", "assignee": "home", "priority": "medium" },
+        { "title": "Review vault and update state — family", "assignee": "family", "priority": "high" },
+        { "title": "Review vault and update state — learning", "assignee": "learning", "priority": "medium" },
+        { "title": "Review vault and update state — mind", "assignee": "mind", "priority": "medium" },
+        { "title": "Review vault and update state — explore", "assignee": "explore", "priority": "low" },
+        { "title": "Review vault and update state — vehicles", "assignee": "vehicles", "priority": "medium" }
+      ]
+    },
+    {
+      "title": "Produce first Life Dashboard",
+      "description": "After all domain agents have completed their vault review, compile the first weekly Life Dashboard covering all 14 domains.",
+      "assignee": "chief-of-staff",
+      "priority": "high",
+      "status": "todo",
+      "depends_on": "Initialize all domain agents"
+    },
+    {
+      "title": "Create goal-aligned tasks for current quarter",
+      "description": "Read goals.md and create specific Paperclip issues for each domain agent based on the quarterly OKRs. Every active goal should have at least one task advancing it.",
+      "assignee": "chief-of-staff",
+      "priority": "high",
+      "status": "todo",
+      "depends_on": "Produce first Life Dashboard"
+    },
+    {
+      "title": "Scan for upcoming deadlines (next 30 days)",
+      "description": "Review all vault state files and documents for deadlines within 30 days — tax payments, insurance renewals, registration expirations, appointment scheduling, filing dates. Create tasks for each deadline.",
+      "assignee": "chief-of-staff",
+      "priority": "critical",
+      "status": "todo"
+    },
+    {
+      "title": "Audit vault completeness",
+      "description": "For each of the 14 vault domains, assess document completeness. Which domains have good coverage? Which are nearly empty? Create a prioritized plan for the user to populate underfilled domains.",
+      "assignee": "chief-of-staff",
+      "priority": "medium",
+      "status": "todo",
+      "depends_on": "Initialize all domain agents"
+    }
+  ]
+}

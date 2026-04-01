@@ -1,0 +1,369 @@
+{
+  "version": "2.0.0",
+  "description": "Paperclip agent definitions for AI Ready U: Life. 15 agents (14 domain + 1 orchestrator). Includes model recommendations, heartbeat schedules, skill assignments, and reporting hierarchy.",
+  "installNotes": {
+    "adapterType": "All agents default to claude_local. Change to codex_local (OpenAI), opencode_local (OpenCode), or http (Ollama/local models) as needed.",
+    "instructionsFilePath": "Paths are relative to the project root. The installer should resolve to absolute paths.",
+    "reportsTo": "Uses shortname references. The installer resolves to UUIDs after all agents are created. chief-of-staff has no reportsTo (top of hierarchy).",
+    "heartbeat": "intervalSec controls how often the agent checks for work. All agents are created with heartbeats OFF. Enable selectively after installation.",
+    "model": "modelTier indicates the recommended tier. Users can override with any supported model."
+  },
+  "agents": [
+    {
+      "name": "Chief of Staff",
+      "shortname": "chief-of-staff",
+      "role": "general",
+      "title": "Life Operations Director",
+      "icon": "crown",
+      "reportsTo": null,
+      "capabilities": "Orchestrates all 14 domain agents. Creates tasks, monitors progress, produces daily briefs and weekly dashboards. Reads all vault and agent state files.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-opus-4-6",
+        "instructionsFilePath": "agents/chief-of-staff/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": {
+          "enabled": false,
+          "intervalSec": 3600,
+          "cooldownSec": 10,
+          "wakeOnDemand": true,
+          "maxConcurrentRuns": 1
+        }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": true },
+      "metadata": {
+        "modelTier": "opus",
+        "modelNotes": "Opus recommended. Cross-domain reasoning, goal alignment, orchestration of 14 agents.",
+        "aireadyu": {
+          "vault": null,
+          "manages": ["tax", "health", "wealth", "career", "legal", "insurance", "business", "estate", "home", "family", "learning", "mind", "explore", "vehicles"],
+          "skills": ["gmail", "calendar", "storage", "workflow", "research", "writing", "port", "drive", "documents"]
+        }
+      }
+    },
+    {
+      "name": "Tax",
+      "shortname": "tax",
+      "role": "general",
+      "title": "Chief Tax Officer",
+      "icon": "cog",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages tax documents, filing preparation, deadline tracking, deduction optimization, CPA coordination, and year-over-year analysis.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-sonnet-4-6",
+        "instructionsFilePath": "agents/tax/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 7200, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "sonnet",
+        "aireadyu": { "vault": "tax", "skills": ["storage", "documents", "calendar", "gmail", "research"] }
+      }
+    },
+    {
+      "name": "Health",
+      "shortname": "health",
+      "role": "general",
+      "title": "Chief Medical Officer",
+      "icon": "sparkles",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages medical records, prescriptions, lab results, provider directory, appointment scheduling, and preventive care tracking.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-sonnet-4-6",
+        "instructionsFilePath": "agents/health/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 7200, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "sonnet",
+        "aireadyu": { "vault": "health", "skills": ["calendar", "storage", "documents", "research", "gmail", "booking"] }
+      }
+    },
+    {
+      "name": "Wealth",
+      "shortname": "wealth",
+      "role": "general",
+      "title": "Chief Capital Officer",
+      "icon": "gem",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages investments, banking, retirement, benefits, credit monitoring, net worth tracking, and financial planning.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-sonnet-4-6",
+        "instructionsFilePath": "agents/wealth/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 7200, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "sonnet",
+        "aireadyu": { "vault": "wealth", "skills": ["storage", "documents", "research", "gmail", "calendar"] }
+      }
+    },
+    {
+      "name": "Career",
+      "shortname": "career",
+      "role": "general",
+      "title": "Chief Talent Officer",
+      "icon": "rocket",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages resumes, certifications, job search, performance reviews, compensation history, and professional growth.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-sonnet-4-6",
+        "instructionsFilePath": "agents/career/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 7200, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "sonnet",
+        "aireadyu": { "vault": "career", "skills": ["gmail", "calendar", "storage", "documents", "research", "writing", "contacts"] }
+      }
+    },
+    {
+      "name": "Legal",
+      "shortname": "legal",
+      "role": "general",
+      "title": "Chief Legal Officer",
+      "icon": "swords",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages wills, trusts, POA, identity documents, contracts, beneficiary designations, and legal compliance.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-sonnet-4-6",
+        "instructionsFilePath": "agents/legal/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 14400, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "sonnet",
+        "aireadyu": { "vault": "legal", "skills": ["storage", "documents", "gmail", "calendar", "research"] }
+      }
+    },
+    {
+      "name": "Insurance",
+      "shortname": "insurance",
+      "role": "general",
+      "title": "Chief Risk Officer",
+      "icon": "shield",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages all insurance policies, renewals, quote comparisons, coverage gap analysis, and claims.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-haiku-4-5-20251001",
+        "instructionsFilePath": "agents/insurance/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 14400, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "haiku",
+        "aireadyu": { "vault": "insurance", "skills": ["storage", "documents", "calendar", "gmail", "research"] }
+      }
+    },
+    {
+      "name": "Business",
+      "shortname": "business",
+      "role": "general",
+      "title": "Chief Corporate Officer",
+      "icon": "target",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages LLCs, business contracts, entity compliance, rental properties, and business financials.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-sonnet-4-6",
+        "instructionsFilePath": "agents/business/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 7200, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "sonnet",
+        "aireadyu": { "vault": "business", "skills": ["gmail", "calendar", "storage", "documents", "research", "workflow", "writing", "analytics"] }
+      }
+    },
+    {
+      "name": "Estate",
+      "shortname": "estate",
+      "role": "general",
+      "title": "Chief Property Officer",
+      "icon": "database",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages property records, deeds, mortgages, HOA docs, property tax statements, and real estate investments.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-haiku-4-5-20251001",
+        "instructionsFilePath": "agents/estate/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 14400, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "haiku",
+        "aireadyu": { "vault": "estate", "skills": ["storage", "documents", "calendar", "research", "gmail"] }
+      }
+    },
+    {
+      "name": "Home",
+      "shortname": "home",
+      "role": "general",
+      "title": "Chief Household Officer",
+      "icon": "wrench",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages warranties, appliance manuals, utility data, maintenance schedules, and home inventory.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-haiku-4-5-20251001",
+        "instructionsFilePath": "agents/home/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 14400, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "haiku",
+        "aireadyu": { "vault": "home", "skills": ["storage", "calendar", "research", "booking"] }
+      }
+    },
+    {
+      "name": "Family",
+      "shortname": "family",
+      "role": "general",
+      "title": "Chief Family Officer",
+      "icon": "heart",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages family documents, children's records, eldercare, shared finances, family history, and legacy planning.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-haiku-4-5-20251001",
+        "instructionsFilePath": "agents/family/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 7200, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "haiku",
+        "aireadyu": { "vault": "family", "skills": ["gmail", "calendar", "contacts", "storage", "research", "booking"] }
+      }
+    },
+    {
+      "name": "Learning",
+      "shortname": "learning",
+      "role": "general",
+      "title": "Chief Learning Officer",
+      "icon": "lightbulb",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages degrees, transcripts, courses, certifications, continuing education, and professional development.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-haiku-4-5-20251001",
+        "instructionsFilePath": "agents/learning/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 14400, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "haiku",
+        "aireadyu": { "vault": "learning", "skills": ["research", "storage", "writing"] }
+      }
+    },
+    {
+      "name": "Mind",
+      "shortname": "mind",
+      "role": "general",
+      "title": "Chief Mindfulness Officer",
+      "icon": "brain",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages journal, notes, ideas, goals, therapy logs, relationships, personal reflection, and values.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-haiku-4-5-20251001",
+        "instructionsFilePath": "agents/mind/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 7200, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "haiku",
+        "aireadyu": { "vault": "mind", "skills": ["storage", "writing", "calendar", "research"] }
+      }
+    },
+    {
+      "name": "Explore",
+      "shortname": "explore",
+      "role": "general",
+      "title": "Chief Adventure Officer",
+      "icon": "star",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages travel itineraries, bookings, hobbies, events, loyalty programs, and adventure planning.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-haiku-4-5-20251001",
+        "instructionsFilePath": "agents/explore/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 14400, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "haiku",
+        "aireadyu": { "vault": "explore", "skills": ["booking", "calendar", "storage", "research"] }
+      }
+    },
+    {
+      "name": "Vehicles",
+      "shortname": "vehicles",
+      "role": "general",
+      "title": "Chief Fleet Officer",
+      "icon": "radar",
+      "reportsTo": "chief-of-staff",
+      "capabilities": "Manages vehicle titles, registrations, maintenance schedules, warranties, recalls, and cost tracking.",
+      "adapterType": "claude_local",
+      "adapterConfig": {
+        "model": "claude-haiku-4-5-20251001",
+        "instructionsFilePath": "agents/vehicles/AGENTS.md"
+      },
+      "runtimeConfig": {
+        "heartbeat": { "enabled": false, "intervalSec": 14400, "cooldownSec": 10, "wakeOnDemand": true, "maxConcurrentRuns": 1 }
+      },
+      "budgetMonthlyCents": 0,
+      "permissions": { "canCreateAgents": false },
+      "metadata": {
+        "modelTier": "haiku",
+        "aireadyu": { "vault": "vehicles", "skills": ["storage", "calendar", "research", "booking"] }
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "structure": {
+    "subfolders": [
+      {
+        "folder": "00_current",
+        "description": "All active, current documents"
+      },
+      {
+        "folder": "01_prior",
+        "description": "Historical documents, subdivided by year (e.g. 01_prior/2024/)"
+      }
+    ]
+  },
+  "domains": [
+    { "id": "tax", "folder": "tax", "agent": "tax", "description": "Tax returns, W-2s, 1099s, receipts, CPA correspondence, estimated payments" },
+    { "id": "health", "folder": "health", "agent": "health", "description": "Medical records, prescriptions, lab results, dental, vision, health insurance EOBs" },
+    { "id": "wealth", "folder": "wealth", "agent": "wealth", "description": "Bank statements, investment statements, retirement accounts, benefits, credit reports, net worth" },
+    { "id": "career", "folder": "career", "agent": "career", "description": "Resumes, certifications, performance reviews, offer letters, employment contracts" },
+    { "id": "legal", "folder": "legal", "agent": "legal", "description": "Wills, trusts, POA, identity docs (passport, license, SSN), vital records, civic docs" },
+    { "id": "insurance", "folder": "insurance", "agent": "insurance", "description": "Auto, health, life, home, umbrella, disability policies, quotes, claims" },
+    { "id": "business", "folder": "business", "agent": "business", "description": "LLC docs, contracts, business plans, entity filings, invoices, rental properties" },
+    { "id": "estate", "folder": "estate", "agent": "estate", "description": "Property records, deeds, mortgages, HOA docs, property tax statements, appraisals" },
+    { "id": "home", "folder": "home", "agent": "home", "description": "Warranties, appliance manuals, utility data, maintenance records, home inventory" },
+    { "id": "family", "folder": "family", "agent": "family", "description": "Family documents, shared finances, eldercare, children's records, family history, legacy" },
+    { "id": "learning", "folder": "learning", "agent": "learning", "description": "Degrees, transcripts, courses, certificates, continuing education" },
+    { "id": "mind", "folder": "mind", "agent": "mind", "description": "Journal, ideas, notes, therapy logs, goals, values, relationships, reference material" },
+    { "id": "explore", "folder": "explore", "agent": "explore", "description": "Travel itineraries, event tickets, hobbies, bookings, loyalty programs, trip logs" },
+    { "id": "vehicles", "folder": "vehicles", "agent": "vehicles", "description": "Vehicle titles, registration, maintenance records, warranties, recalls" }
+  ]
+}

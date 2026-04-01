@@ -1,0 +1,177 @@
+{
+  "version": "2.0.0",
+  "description": "Recurring Paperclip routines for AI Ready U: Life. 19 routines across daily, weekly, bi-weekly, monthly, quarterly, and annual cadences.",
+  "routines": [
+    {
+      "title": "Daily Brief",
+      "description": "Chief of Staff compiles and emails the daily brief to the user.\n\n1. Scan all 14 agent state files\n2. Scan all 14 vault state files\n3. Check open Paperclip issues for progress/blockers\n4. Create new tasks for agents with pending work\n5. Compile daily brief email and send via gmail skill\n6. Update chief-of-staff state.md",
+      "assigneeAgentShortname": "chief-of-staff",
+      "priority": "high",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "Every day at 7:00 AM", "kind": "schedule", "cronExpression": "0 7 * * *" }]
+    },
+    {
+      "title": "Weekly Life Dashboard",
+      "description": "Chief of Staff produces the comprehensive weekly dashboard covering all 14 domains, goal progress, upcoming deadlines, blockers, and recommendations. Email to user.",
+      "assigneeAgentShortname": "chief-of-staff",
+      "priority": "high",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "Every Monday at 8:00 AM", "kind": "schedule", "cronExpression": "0 8 * * 1" }]
+    },
+    {
+      "title": "Bi-weekly Vault Triage",
+      "description": "Chief of Staff scans the intake folder and routes unprocessed files using port and documents skills. Creates subtasks for each agent whose vault received new files.",
+      "assigneeAgentShortname": "chief-of-staff",
+      "priority": "medium",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "1st and 15th of every month at 10:00 AM", "kind": "schedule", "cronExpression": "0 10 1,15 * *" }]
+    },
+    {
+      "title": "Weekly Wealth Review",
+      "description": "Wealth agent reviews account balances, recent transactions, budget adherence, investment performance, and credit health. Flag anomalies. Update vault state.",
+      "assigneeAgentShortname": "wealth",
+      "priority": "high",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "Every Monday at 9:00 AM", "kind": "schedule", "cronExpression": "0 9 * * 1" }]
+    },
+    {
+      "title": "Weekly Career Review",
+      "description": "Career agent reviews professional progress, networking follow-ups, certification deadlines, and content pipeline. Update state files.",
+      "assigneeAgentShortname": "career",
+      "priority": "medium",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "Every Tuesday at 9:00 AM", "kind": "schedule", "cronExpression": "0 9 * * 2" }]
+    },
+    {
+      "title": "Weekly Business Ops Check",
+      "description": "Business agent reviews entity compliance, rental properties, contracts, and P&L. Update state files.",
+      "assigneeAgentShortname": "business",
+      "priority": "medium",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "Every Wednesday at 9:00 AM", "kind": "schedule", "cronExpression": "0 9 * * 3" }]
+    },
+    {
+      "title": "Weekly Mind & Goals Review",
+      "description": "Mind agent reviews journal practice, goals progress, relationships, and mental wellness. Surface patterns. Update state files.",
+      "assigneeAgentShortname": "mind",
+      "priority": "medium",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "Every Friday at 8:00 AM", "kind": "schedule", "cronExpression": "0 8 * * 5" }]
+    },
+    {
+      "title": "Weekly Home Check",
+      "description": "Home agent reviews maintenance schedule, supplies, utility data, and household systems. Update state files.",
+      "assigneeAgentShortname": "home",
+      "priority": "low",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "Every Saturday at 9:00 AM", "kind": "schedule", "cronExpression": "0 9 * * 6" }]
+    },
+    {
+      "title": "Weekly Health Check-in",
+      "description": "Health agent reviews upcoming appointments, medication adherence, overdue screenings, and vitals trends. Update state files.",
+      "assigneeAgentShortname": "health",
+      "priority": "medium",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "Every Sunday at 8:00 AM", "kind": "schedule", "cronExpression": "0 8 * * 0" }]
+    },
+    {
+      "title": "Weekly Family Check-in",
+      "description": "Family agent reviews family calendar, care needs, children's events, and shared responsibilities. Update state files.",
+      "assigneeAgentShortname": "family",
+      "priority": "medium",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "Every Sunday at 9:00 AM", "kind": "schedule", "cronExpression": "0 9 * * 0" }]
+    },
+    {
+      "title": "Bi-weekly Tax Review",
+      "description": "Tax agent reviews income changes, deductions, and upcoming deadlines. Runs weekly during tax season (Jan-Apr).",
+      "assigneeAgentShortname": "tax",
+      "priority": "high",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "1st and 15th of every month at 9:00 AM", "kind": "schedule", "cronExpression": "0 9 1,15 * *" }]
+    },
+    {
+      "title": "Bi-weekly Insurance Monitor",
+      "description": "Insurance agent reviews policy renewals, coverage gaps, and premium changes. Flag policies expiring within 60 days.",
+      "assigneeAgentShortname": "insurance",
+      "priority": "medium",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "1st and 15th of every month at 10:00 AM", "kind": "schedule", "cronExpression": "0 10 1,15 * *" }]
+    },
+    {
+      "title": "Bi-weekly Learning Progress",
+      "description": "Learning agent reviews course progress, reading log, certification deadlines, and skill development. Update state files.",
+      "assigneeAgentShortname": "learning",
+      "priority": "low",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "1st and 15th of every month at 9:00 AM", "kind": "schedule", "cronExpression": "0 9 1,15 * *" }]
+    },
+    {
+      "title": "Bi-weekly Vehicles Check",
+      "description": "Vehicles agent reviews maintenance schedule, registration expirations, warranty status, and recall notices. Update state files.",
+      "assigneeAgentShortname": "vehicles",
+      "priority": "low",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "1st and 15th of every month at 10:00 AM", "kind": "schedule", "cronExpression": "0 10 1,15 * *" }]
+    },
+    {
+      "title": "Monthly Legal Review",
+      "description": "Legal agent reviews identity document expirations, estate plan currency, beneficiary designations, contract renewals, and compliance deadlines.",
+      "assigneeAgentShortname": "legal",
+      "priority": "medium",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "First day of every month at 9:00 AM", "kind": "schedule", "cronExpression": "0 9 1 * *" }]
+    },
+    {
+      "title": "Monthly Estate Review",
+      "description": "Estate agent reviews property values, mortgage statements, property tax status, and HOA compliance. Coordinate with home agent on maintenance.",
+      "assigneeAgentShortname": "estate",
+      "priority": "medium",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "First day of every month at 9:00 AM", "kind": "schedule", "cronExpression": "0 9 1 * *" }]
+    },
+    {
+      "title": "Monthly Explore Planning",
+      "description": "Explore agent reviews upcoming trips, events, hobby activities, and loyalty program balances. Plan activities for the month.",
+      "assigneeAgentShortname": "explore",
+      "priority": "low",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "skip_missed",
+      "triggers": [{ "cronHuman": "First day of every month at 10:00 AM", "kind": "schedule", "cronExpression": "0 10 1 * *" }]
+    },
+    {
+      "title": "Quarterly Goal Review",
+      "description": "Chief of Staff reviews OKR progress, archives completed goals, proposes new quarterly OKRs, and creates issue cascades for domain agents. Email quarterly summary to user.",
+      "assigneeAgentShortname": "chief-of-staff",
+      "priority": "critical",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "enqueue_missed_with_cap",
+      "triggers": [{ "cronHuman": "Start of each quarter (Jan 1, Apr 1, Jul 1, Oct 1) at 9:00 AM", "kind": "schedule", "cronExpression": "0 9 1 1,4,7,10 *" }]
+    },
+    {
+      "title": "Annual Life Review",
+      "description": "Chief of Staff conducts comprehensive annual review across all 14 domains. Year-over-year comparison, goal achievement assessment, archive 00_current to 01_prior, propose annual goals.",
+      "assigneeAgentShortname": "chief-of-staff",
+      "priority": "critical",
+      "concurrencyPolicy": "skip_if_active",
+      "catchUpPolicy": "enqueue_missed_with_cap",
+      "triggers": [{ "cronHuman": "December 15 at 9:00 AM", "kind": "schedule", "cronExpression": "0 9 15 12 *" }]
+    }
+  ]
+}
