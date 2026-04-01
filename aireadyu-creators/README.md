@@ -51,7 +51,7 @@ GitHub (free):
 
 The agents are free. The instructions, skills, and vault make them operational.
 
-**[Get AI Ready U: Creators on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-creators)**
+**[Get AI Ready U: Creators on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-creators)**
 
 ## How It Works
 
@@ -63,7 +63,7 @@ npx companies.sh add fru-dev3/companies/aireadyu-creators --include company,agen
 
 ### Step 2: Buy the pack
 
-**[Get AI Ready U: Creators on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-creators)**
+**[Get AI Ready U: Creators on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-creators)**
 
 ### Step 3: Extract to `~/Documents/AIReadyU-Creators/`
 

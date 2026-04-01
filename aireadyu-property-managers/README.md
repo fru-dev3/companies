@@ -50,7 +50,7 @@ GitHub (free):
 
 The agents are free. The instructions, skills, and vault make them operational.
 
-**[Get AI Ready U: Property Managers on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-property-managers)**
+**[Get AI Ready U: Property Managers on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-property-managers)**
 
 ## How It Works
 
@@ -62,7 +62,7 @@ npx companies.sh add fru-dev3/companies/aireadyu-property-managers --include com
 
 ### Step 2: Buy the pack
 
-**[Get AI Ready U: Property Managers on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-property-managers)**
+**[Get AI Ready U: Property Managers on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-property-managers)**
 
 ### Step 3: Extract to `~/Documents/AIReadyU-Property-Managers/`
 

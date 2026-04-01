@@ -50,7 +50,7 @@ GitHub (free):
 
 The agents are free. The instructions, skills, and vault make them operational.
 
-**[Get AI Ready U: Consultants on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-consultants)**
+**[Get AI Ready U: Consultants on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-consultants)**
 
 ## How It Works
 
@@ -62,7 +62,7 @@ npx companies.sh add fru-dev3/companies/aireadyu-consultants --include company,a
 
 ### Step 2: Buy the pack
 
-**[Get AI Ready U: Consultants on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-consultants)**
+**[Get AI Ready U: Consultants on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-consultants)**
 
 ### Step 3: Extract to `~/Documents/AIReadyU-Consultants/`
 

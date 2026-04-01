@@ -54,7 +54,7 @@ GitHub (free):
 
 The agents are free. The instructions, skills, and vault make them operational.
 
-**[Get AI Ready U: Life on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-life)**
+**[Get AI Ready U: Life on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-life)**
 
 ## How It Works
 
@@ -66,7 +66,7 @@ npx companies.sh add fru-dev3/companies/aireadyu-life --include company,agents,p
 
 ### Step 2: Buy the pack
 
-**[Get AI Ready U: Life on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-life)**
+**[Get AI Ready U: Life on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-life)**
 
 ### Step 3: Extract to `~/Documents/AIReadyU-Life/`
 

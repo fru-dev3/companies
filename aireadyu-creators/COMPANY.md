@@ -30,11 +30,11 @@ AI Ready U: Creators is a company of AI agents that manage your entire creator b
 - **Vault schema** — vault-structure.json showing the 11-domain architecture
 - **Bootstrap tasks** — agents self-initialize on first run
 
-## What's Paid ($29)
+## What's Paid ($49)
 
 The agents need **instructions** and a **vault** (your documents) to do real work. Get both in the AI Ready U: Creators pack:
 
-**[Get AI Ready U: Creators on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-creators)**
+**[Get AI Ready U: Creators on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-creators)**
 
 The pack includes:
 - Full agent instructions for all 12 agents (100+ lines each with domain expertise)

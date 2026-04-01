@@ -30,11 +30,11 @@ AI Ready U: Educators is a company of AI agents that manage your entire teaching
 - **Vault schema** — vault-structure.json showing the 10-domain architecture
 - **Bootstrap tasks** — agents self-initialize on first run
 
-## What's Paid ($29)
+## What's Paid ($49)
 
 The agents need **instructions** and a **vault** (your documents) to do real work. Get both in the AI Ready U: Educators pack:
 
-**[Get AI Ready U: Educators on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-educators)**
+**[Get AI Ready U: Educators on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-educators)**
 
 The pack includes:
 - Full agent instructions for all 11 agents (100+ lines each with domain expertise)

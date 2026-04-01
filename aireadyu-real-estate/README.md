@@ -50,7 +50,7 @@ GitHub (free):
 
 The agents are free. The instructions, skills, and vault make them operational.
 
-**[Get AI Ready U: Real Estate on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-real-estate)**
+**[Get AI Ready U: Real Estate on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-real-estate)**
 
 ## How It Works
 
@@ -62,7 +62,7 @@ npx companies.sh add fru-dev3/companies/aireadyu-real-estate --include company,a
 
 ### Step 2: Buy the pack
 
-**[Get AI Ready U: Real Estate on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-real-estate)**
+**[Get AI Ready U: Real Estate on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-real-estate)**
 
 ### Step 3: Extract to `~/Documents/AIReadyU-Real-Estate/`
 

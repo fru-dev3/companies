@@ -30,11 +30,11 @@ AI Ready U: Freelancers is a company of AI agents that manage your entire freela
 - **Vault schema** — vault-structure.json showing the 9-domain architecture
 - **Bootstrap tasks** — agents self-initialize on first run
 
-## What's Paid ($29)
+## What's Paid ($49)
 
 The agents need **instructions** and a **vault** (your documents) to do real work. Get both in the AI Ready U: Freelancers pack:
 
-**[Get AI Ready U: Freelancers on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-freelancers)**
+**[Get AI Ready U: Freelancers on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-freelancers)**
 
 The pack includes:
 - Full agent instructions for all 10 agents (100+ lines each with domain expertise)
