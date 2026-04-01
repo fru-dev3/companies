@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "structure": {
+    "subfolders": [
+      {
+        "folder": "00_current",
+        "description": "All active, current documents"
+      },
+      {
+        "folder": "01_prior",
+        "description": "Historical documents, subdivided by year (e.g. 01_prior/2024/)"
+      }
+    ]
+  },
+  "domains": [
+    { "id": "operations", "folder": "operations", "agent": "operations-agent", "description": "SOPs, process maps, workflow documentation, operational KPIs, quality standards, inventory records" },
+    { "id": "customers", "folder": "customers", "agent": "customers-agent", "description": "Customer records, support tickets, NPS surveys, onboarding checklists, renewal timelines, case studies" },
+    { "id": "sales", "folder": "sales", "agent": "sales-agent", "description": "Pipeline reports, proposals, contracts, pricing sheets, lead lists, revenue forecasts, win/loss analysis" },
+    { "id": "marketing", "folder": "marketing", "agent": "marketing-agent", "description": "Campaign plans, content calendar, brand guidelines, analytics reports, competitor analysis, press mentions" },
+    { "id": "finance", "folder": "finance", "agent": "finance-agent", "description": "P&L statements, budgets, invoices, receipts, bank statements, tax filings, cash flow projections" },
+    { "id": "hr", "folder": "hr", "agent": "hr-agent", "description": "Employee records, job descriptions, offer letters, handbook, performance reviews, training materials, PTO records" },
+    { "id": "legal", "folder": "legal", "agent": "legal-agent", "description": "Contracts, NDAs, terms of service, privacy policy, business licenses, compliance records, IP filings" },
+    { "id": "vendors", "folder": "vendors", "agent": "vendors-agent", "description": "Vendor contracts, SLAs, purchase orders, supplier evaluations, RFP documents, payment schedules" },
+    { "id": "products", "folder": "products", "agent": "products-agent", "description": "Product roadmaps, feature specs, user research, release notes, competitive analysis, pricing strategy" },
+    { "id": "knowledge", "folder": "knowledge", "agent": "knowledge-agent", "description": "Knowledge base articles, playbooks, training docs, FAQs, onboarding guides, meeting notes, templates" },
+    { "id": "tech", "folder": "tech", "agent": "tech-agent", "description": "System architecture, software inventory, security policies, backup plans, integration docs, incident reports" },
+    { "id": "admin", "folder": "admin", "agent": "admin-agent", "description": "Company directory, office policies, travel records, meeting schedules, expense reports, supply orders" }
+  ]
+}

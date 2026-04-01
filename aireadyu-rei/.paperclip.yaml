@@ -1,0 +1,6 @@
+schema: paperclip/v1
+
+company:
+  brandColor: "#3B8A6A"
+  description: "11 AI agents that manage your real estate investment portfolio across 10 domains — properties, acquisitions, tenants, maintenance, financing, taxes, insurance, legal, accounting, and market research. Orchestrated by a Portfolio Director with portfolio dashboards, deal analysis, and goal-driven task management. Everything runs locally. Private. On your machine."
+  requireBoardApprovalForNewAgents: true

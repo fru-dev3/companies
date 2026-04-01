@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "structure": {
+    "subfolders": [
+      {
+        "folder": "00_current",
+        "description": "All active, current documents"
+      },
+      {
+        "folder": "01_prior",
+        "description": "Historical documents, subdivided by year (e.g. 01_prior/2024/)"
+      }
+    ]
+  },
+  "domains": [
+    { "id": "clients", "folder": "clients", "agent": "clients", "description": "Client profiles, onboarding docs, engagement history, satisfaction surveys, contact records" },
+    { "id": "proposals", "folder": "proposals", "agent": "proposals", "description": "Proposals, SOWs, pricing models, win/loss records, discovery notes, pitch decks" },
+    { "id": "deliverables", "folder": "deliverables", "agent": "deliverables", "description": "Project plans, status reports, milestone tracking, deliverable drafts, client handoffs" },
+    { "id": "pipeline", "folder": "pipeline", "agent": "pipeline", "description": "Lead lists, deal tracking, outreach sequences, referral records, revenue forecasts" },
+    { "id": "sops", "folder": "sops", "agent": "sops", "description": "Standard operating procedures, playbooks, templates, checklists, workflow definitions" },
+    { "id": "knowledge", "folder": "knowledge", "agent": "knowledge", "description": "Frameworks, case studies, research libraries, industry insights, competitive intelligence" },
+    { "id": "content", "folder": "content", "agent": "content", "description": "Blog posts, LinkedIn articles, newsletters, editorial calendar, presentation decks" },
+    { "id": "finance", "folder": "finance", "agent": "finance", "description": "Invoices, expense reports, P&L statements, cash flow forecasts, tax records, timesheets" },
+    { "id": "legal", "folder": "legal", "agent": "legal", "description": "MSAs, NDAs, SOWs, IP agreements, compliance docs, insurance policies, entity filings" },
+    { "id": "admin", "folder": "admin", "agent": "admin", "description": "Meeting notes, travel itineraries, vendor contracts, subscriptions, office operations" }
+  ]
+}

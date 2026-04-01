@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "structure": {
+    "subfolders": [
+      {
+        "folder": "00_current",
+        "description": "All active, current documents"
+      },
+      {
+        "folder": "01_prior",
+        "description": "Historical documents, subdivided by year (e.g. 01_prior/2024/)"
+      }
+    ]
+  },
+  "domains": [
+    { "id": "properties", "folder": "properties", "agent": "properties-agent", "description": "Property profiles, addresses, unit details, occupancy records, property tax bills, HOA docs, utility accounts" },
+    { "id": "acquisitions", "folder": "acquisitions", "agent": "acquisitions-agent", "description": "Deal pipeline, underwriting models, inspection reports, appraisals, comp analysis, due diligence checklists" },
+    { "id": "tenants", "folder": "tenants", "agent": "tenants-agent", "description": "Lease agreements, tenant applications, screening reports, rent rolls, move-in/move-out checklists, correspondence" },
+    { "id": "maintenance", "folder": "maintenance", "agent": "maintenance-agent", "description": "Work orders, vendor contracts, preventive maintenance schedules, inspection reports, warranty claims, CapEx logs" },
+    { "id": "financing", "folder": "financing", "agent": "financing-agent", "description": "Mortgage documents, loan applications, amortization schedules, HELOC agreements, refinance analyses, rate locks" },
+    { "id": "taxes", "folder": "taxes", "agent": "taxes-agent", "description": "Depreciation schedules, cost segregation studies, Schedule E data, property tax assessments, 1031 exchange docs, K-1s" },
+    { "id": "insurance", "folder": "insurance", "agent": "insurance-agent", "description": "Landlord policies, commercial property insurance, flood insurance, umbrella policies, claims, premium comparisons" },
+    { "id": "legal", "folder": "legal", "agent": "legal-agent", "description": "Purchase agreements, lease contracts, LLC formation docs, title reports, zoning records, eviction filings, attorney correspondence" },
+    { "id": "accounting", "folder": "accounting", "agent": "accounting-agent", "description": "P&L statements, rent collection records, expense reports, NOI calculations, cash flow projections, operating budgets" },
+    { "id": "market", "folder": "market", "agent": "market-agent", "description": "Market reports, comp data, rent surveys, vacancy rate trends, economic indicators, investment outlook summaries" }
+  ]
+}

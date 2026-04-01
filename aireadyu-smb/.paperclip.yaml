@@ -1,0 +1,6 @@
+schema: paperclip/v1
+
+company:
+  brandColor: "#3B8A6A"
+  description: "13 AI agents that manage your small business across 12 domains — operations, customers, sales, marketing, finance, HR, legal, vendors, products, knowledge, tech, and admin. Orchestrated by a Chief of Staff with daily briefs, weekly dashboards, and goal-driven task management. Everything runs locally. Private. On your machine."
+  requireBoardApprovalForNewAgents: true
