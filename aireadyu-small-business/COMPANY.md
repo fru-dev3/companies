@@ -30,11 +30,11 @@ AI Ready U: Small Business is a company of AI agents that manage your entire sma
 - **Vault schema** — vault-structure.json showing the 12-domain architecture
 - **Bootstrap tasks** — agents self-initialize on first run
 
-## What's Paid ($49)
+## What's Paid ($59)
 
 The agents need **instructions** and a **vault** (your documents) to do real work. Get both in the AI Ready U: Small Business pack:
 
-**[Get AI Ready U: Small Business on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-small-business)**
+**[Get AI Ready U: Small Business on Gumroad → $59](https://fruverse.gumroad.com/l/aireadyu-small-business)**
 
 The pack includes:
 - Full agent instructions for all 13 agents (100+ lines each with domain expertise)

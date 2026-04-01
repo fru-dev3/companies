@@ -49,7 +49,7 @@ GitHub (free):
 
 The agents are free. The instructions, skills, and vault make them operational.
 
-**[Get AI Ready U: Students on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-students)**
+**[Get AI Ready U: Students on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-students)**
 
 ## How It Works
 
@@ -61,7 +61,7 @@ npx companies.sh add fru-dev3/companies/aireadyu-students --include company,agen
 
 ### Step 2: Buy the pack
 
-**[Get AI Ready U: Students on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-students)**
+**[Get AI Ready U: Students on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-students)**
 
 ### Step 3: Extract to `~/Documents/AIReadyU-Students/`
 

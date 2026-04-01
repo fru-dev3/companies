@@ -30,11 +30,11 @@ AI Ready U: E-Commerce is a company of AI agents that manage your entire online 
 - **Vault schema** — vault-structure.json showing the 11-domain architecture
 - **Bootstrap tasks** — agents self-initialize on first run
 
-## What's Paid ($49)
+## What's Paid ($59)
 
 The agents need **instructions** and a **vault** (your documents) to do real work. Get both in the AI Ready U: E-Commerce pack:
 
-**[Get AI Ready U: E-Commerce on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-ecommerce)**
+**[Get AI Ready U: E-Commerce on Gumroad → $59](https://fruverse.gumroad.com/l/aireadyu-ecommerce)**
 
 The pack includes:
 - Full agent instructions for all 12 agents (100+ lines each with domain expertise)

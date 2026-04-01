@@ -31,16 +31,16 @@ Pre-built AI agent companies for [Paperclip](https://paperclip.ing). Install via
 | Product | Price | Link |
 |---------|-------|------|
 | AI Ready U: Life | $49 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-life) |
-| AI Ready U: Consultants | $49 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-consultants) |
-| AI Ready U: Small Business | $49 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-small-business) |
-| AI Ready U: Real Estate | $49 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-real-estate) |
-| AI Ready U: Creators | $49 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-creators) |
-| AI Ready U: Founders | $49 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-founders) |
-| AI Ready U: E-Commerce | $49 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-ecommerce) |
-| AI Ready U: Freelancers | $49 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-freelancers) |
-| AI Ready U: Property Managers | $49 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-property-managers) |
-| AI Ready U: Students | $49 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-students) |
-| AI Ready U: Educators | $49 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-educators) |
+| AI Ready U: Consultants | $69 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-consultants) |
+| AI Ready U: Small Business | $59 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-small-business) |
+| AI Ready U: Real Estate | $69 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-real-estate) |
+| AI Ready U: Creators | $39 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-creators) |
+| AI Ready U: Founders | $79 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-founders) |
+| AI Ready U: E-Commerce | $59 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-ecommerce) |
+| AI Ready U: Freelancers | $39 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-freelancers) |
+| AI Ready U: Property Managers | $59 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-property-managers) |
+| AI Ready U: Students | $29 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-students) |
+| AI Ready U: Educators | $39 | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-educators) |
 | **Bundle: All 11** | **$299** | [Gumroad](https://fruverse.gumroad.com/l/aireadyu-bundle) |
 
 ## Built by [fru.dev](https://fru.dev)

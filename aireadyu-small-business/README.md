@@ -52,7 +52,7 @@ GitHub (free):
 
 The agents are free. The instructions, skills, and vault make them operational.
 
-**[Get AI Ready U: Small Business on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-small-business)**
+**[Get AI Ready U: Small Business on Gumroad → $59](https://fruverse.gumroad.com/l/aireadyu-small-business)**
 
 ## How It Works
 
@@ -64,7 +64,7 @@ npx companies.sh add fru-dev3/companies/aireadyu-small-business --include compan
 
 ### Step 2: Buy the pack
 
-**[Get AI Ready U: Small Business on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-small-business)**
+**[Get AI Ready U: Small Business on Gumroad → $59](https://fruverse.gumroad.com/l/aireadyu-small-business)**
 
 ### Step 3: Extract to `~/Documents/AIReadyU-Small-Business/`
 

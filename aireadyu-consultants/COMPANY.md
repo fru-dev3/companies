@@ -30,11 +30,11 @@ AI Ready U: Consultants is a company of AI agents that manage your entire consul
 - **Vault schema** — vault-structure.json showing the 10-domain architecture
 - **Bootstrap tasks** — agents self-initialize on first run
 
-## What's Paid ($49)
+## What's Paid ($69)
 
 The agents need **instructions** and a **vault** (your documents) to do real work. Get both in the AI Ready U: Consultants pack:
 
-**[Get AI Ready U: Consultants on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-consultants)**
+**[Get AI Ready U: Consultants on Gumroad → $69](https://fruverse.gumroad.com/l/aireadyu-consultants)**
 
 The pack includes:
 - Full agent instructions for all 11 agents (100+ lines each with domain expertise)

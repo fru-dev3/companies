@@ -30,11 +30,11 @@ AI Ready U: Students is a company of AI agents that manage your entire student l
 - **Vault schema** — vault-structure.json showing the 9-domain architecture
 - **Bootstrap tasks** — agents self-initialize on first run
 
-## What's Paid ($49)
+## What's Paid ($29)
 
 The agents need **instructions** and a **vault** (your documents) to do real work. Get both in the AI Ready U: Students pack:
 
-**[Get AI Ready U: Students on Gumroad → $49](https://fruverse.gumroad.com/l/aireadyu-students)**
+**[Get AI Ready U: Students on Gumroad → $29](https://fruverse.gumroad.com/l/aireadyu-students)**
 
 The pack includes:
 - Full agent instructions for all 10 agents (100+ lines each with domain expertise)
